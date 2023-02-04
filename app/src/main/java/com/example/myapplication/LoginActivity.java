@@ -1,7 +1,6 @@
 package com.example.myapplication;
 
 import android.app.AlertDialog;
-import android.app.ProgressDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
@@ -50,7 +49,7 @@ public class LoginActivity extends AppCompatActivity {
         inputEmail = findViewById(R.id.inputEmail);
         inputPassword = findViewById(R.id.inputPassword);
         btnLogin = findViewById(R.id.btnLogin);
-        btnGoogle = findViewById(R.id.btnGoogle);
+        btnGoogle = findViewById(R.id.iconGoogle);
 
         mAuth = FirebaseAuth.getInstance();
         mUser = mAuth.getCurrentUser();

@@ -25,15 +25,15 @@ public class SplashScreen extends AppCompatActivity {
         setContentView(R.layout.activity_splash_screen);
 
         topAnim = AnimationUtils.loadAnimation(this,R.anim.top_animation);
-        bottomAnim = AnimationUtils.loadAnimation(this,R.anim.bottom_animation);
+//        bottomAnim = AnimationUtils.loadAnimation(this,R.anim.bottom_animation);
 
         iv=findViewById(R.id.splashimageView);
-        logo=findViewById(R.id.splashLogo);
-        slogan=findViewById(R.id.splashSlogan);
+//        logo=findViewById(R.id.splashLogo);
+//        slogan=findViewById(R.id.splashSlogan);
 
         iv.setAnimation(topAnim);
-        logo.setAnimation(bottomAnim);
-        slogan.setAnimation(bottomAnim);
+//        logo.setAnimation(bottomAnim);
+//        slogan.setAnimation(bottomAnim);
 
         new Handler().postDelayed(new Runnable() {
             @Override

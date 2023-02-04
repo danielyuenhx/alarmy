@@ -11,4 +11,5 @@
     <color name="green">#abd1c0 </color>
     <color name="background">#f5f6f0</color>
     <color name="textsecondary"> #242118 </color>
+    <color name="pseudoBlack">#221f22</color>
 </resources>
