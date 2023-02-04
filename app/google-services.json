@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "489440710663",
+    "project_id": "alarmy-123",
+    "storage_bucket": "alarmy-123.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:489440710663:android:8307bd096e5ca5e3fb1aa2",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "489440710663-3kfcu87hocc1gsjj6eckrephpbs706nu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmZ3QDYlF5jl7uLlw909tzFOoZnKzSHPU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "489440710663-3kfcu87hocc1gsjj6eckrephpbs706nu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
